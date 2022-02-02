@@ -1,0 +1,7 @@
+{% if users %}
+    {% for user in users %}
+        <div class="res">
+            <p>{{user.first_name}} {{user.last_name}}</p>
+        </div>
+    {% endfor %}
+{% endif %}
